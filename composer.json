@@ -1,0 +1,17 @@
+{
+    "name": "idsite/payment",
+    "description": "for Yii2 PHP extension for receiving payments",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": ["payment", "pay", "api", "yii2"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "idsite\\payment\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    }
+}
