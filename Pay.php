@@ -13,10 +13,10 @@ class Pay extends \yii\base\Object {
      * массив с конфигурацией для каждого метода оплаты
      * пример: 
      * methods = [
-      'yandex' => [
-      'class' => '\idsite\payment\yandex\PayYandex',
-      'dataPay'=>[...]
-      ]
+     * 'yandex' => [
+     * 'class' => '\idsite\payment\yandex\PayYandex',
+     * 'dataPay'=>[...]
+     * ]
      * @var array 
      */
     public $methods = [];
